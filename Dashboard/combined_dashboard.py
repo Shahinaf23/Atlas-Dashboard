@@ -191,7 +191,7 @@ if st.session_state.page == "home":
             "<div style='display: flex; align-items: center; height: 100%; justify-content: flex-start; margin-top: 2.5rem;'>",
             unsafe_allow_html=True
         )
-        st.image("atlas_logo.jpg", width=70)
+      #  st.image("atlas_logo.jpg", width=70)
         st.markdown("</div>", unsafe_allow_html=True)
 
     st.markdown(
